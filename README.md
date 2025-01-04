@@ -4,7 +4,7 @@ Este es el proyecto del **frontend** de un chatbot para un restaurante de sushi.
 
 ---
 
-## <URL_DEL_REPOSITORIO> Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **React.js**  
 - **Tailwind CSS**  
 - **Vite** 
