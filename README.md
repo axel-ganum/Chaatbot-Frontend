@@ -1,10 +1,10 @@
-# 🍣 Chatbot Sushi Frontend
+#  Chatbot Sushi Frontend
 
 Este es el proyecto del **frontend** de un chatbot para un restaurante de sushi. Permite a los clientes consultar el menú y realizar pedidos de manera interactiva. Desarrollado con **React** y **Tailwind CSS**.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## <URL_DEL_REPOSITORIO> Tecnologías Utilizadas
 - **React.js**  
 - **Tailwind CSS**  
 - **Vite** 
@@ -16,9 +16,9 @@ Este es el proyecto del **frontend** de un chatbot para un restaurante de sushi.
 Para instalar y ejecutar el proyecto localmente:  
 
 1. Clona este repositorio:  
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   ```
+```bash
+ git clone https://github.com/axel-ganum/Chaatbot-Frontend.git
+```
  
 
 Para instalar las dependencias del proyecto:  
