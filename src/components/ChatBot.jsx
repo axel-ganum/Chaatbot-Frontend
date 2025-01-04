@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { fetchStatus } from "../utils/chatbotLogic.js";
 import Menu from "./Menu.jsx";
+import {agregarProducto} from "../utils/pedidoService.js"
+
 
 const ChatBot = () => {
   const [messages, setMessages] = useState([]);
@@ -9,31 +11,22 @@ const ChatBot = () => {
   const [menu, setMenu] = useState([]); 
 
   const addMessage = (text, sender = "bot") => {
-    
     if (messages[messages.length - 1]?.text === text && sender === "user") return;
-
     setMessages((prev) => [...prev, { text, sender }]);
   };
 
   const handleUserInput = async () => {
     if (!userMessage.trim()) return;
 
-    
     addMessage(userMessage, "user");
     setIsLoading(true);
 
-    
     await fetchStatus(userMessage, addMessage, setIsLoading, setMenu);
-
     setUserMessage(""); 
   };
 
   const handleCloseMenu = () => {
     setMenu([]); 
-  };
-
-  const agregarProducto = (producto) => {
-    addMessage(`Has añadido ${producto.nombre} al pedido.`, "bot");
   };
 
   return (
@@ -67,6 +60,7 @@ const ChatBot = () => {
               agregarProducto={agregarProducto}
               menu={menu}
               onClose={handleCloseMenu} 
+              addMessage={addMessage} 
             />
           )}
         </div>
