@@ -1,8 +1,32 @@
-# React + Vite
+# 🍣 Chatbot Sushi Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el proyecto del **frontend** de un chatbot para un restaurante de sushi. Permite a los clientes consultar el menú y realizar pedidos de manera interactiva. Desarrollado con **React** y **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías Utilizadas
+- **React.js**  
+- **Tailwind CSS**  
+- **Vite** 
+
+---
+
+
+##  Instalación
+Para instalar y ejecutar el proyecto localmente:  
+
+1. Clona este repositorio:  
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+ 
+
+Para instalar las dependencias del proyecto:  
+```bash
+npm install
+```
+## Cómo correr el proyecto
+Para iniciar el proyecto en modo desarrollo:  
+```bash
+npm run dev
+```
