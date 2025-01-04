@@ -26,7 +26,7 @@ Para instalar las dependencias del proyecto:
 npm install
 ```
 ## Cómo correr el proyecto
-Para iniciar el proyecto en modo desarrollo:  
+Para iniciar el proyecto:  
 ```bash
 npm run dev
 ```
