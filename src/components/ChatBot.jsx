@@ -31,7 +31,10 @@ const ChatBot = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
-      <div className="w-[500px] h-[700px] bg-white rounded-lg shadow-lg flex flex-col relative">
+      <div className="w-[700px] h-[900px] bg-white rounded-lg shadow-lg flex flex-col relative">
+      <div className="bg-blue-500 p-4 text-white text-xl font-semibold rounded-t-lg">
+          ChatBot
+        </div>
         <div className="flex-1 overflow-y-auto p-4">
           {messages.map((message, index) => (
             <div
